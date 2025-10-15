@@ -1,0 +1,80 @@
+@media only screen and (max-width:992px){
+   .bar-icon{
+        display: inline;
+    }
+   .nav-links{
+    display: none;
+   }
+    .hero-section .right img {
+    width: 500px;
+}
+    .example-cards-area{
+        gap: 20px;
+    }
+    .example-cards{
+        width: calc(50% - 20px);
+        height: 180px;
+    }
+    .big-feature-section-area img {
+    width: 60%;
+}
+h4{
+    font-size: 1.3em;
+}
+}
+
+@media only screen and (max-width: 768px){
+  .hero-section{
+    flex-direction: column-reverse;
+  }
+  .hero-section .right img {
+    width: 100%;
+}
+.hero-section .left {
+    width: 100%;
+    text-align: center;
+}
+.primary-button{
+    width: 100%;
+}
+.feature-box {
+    min-width: calc(50% - 10px);
+}
+.big-feature-section-area img {
+    width: 100%;
+}
+.big-feature-section-area, #second-big-feature-section {
+    flex-direction: column;
+}
+.feature-descp{
+    width: 100%;
+    text-align: center;
+}
+.footer-links-area{
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    text-align: center;
+}
+.footer-link{
+    align-items: stretch;
+}
+}
+
+@media only screen and (max-width: 479px){
+    .main-container {
+    padding: 0 3%;
+}
+p,a{
+    font-size: 1em;
+}
+.feature-box {
+    min-width: 100%;
+}
+.big-feature-section-area img {
+    width: 100%;
+}
+ .example-cards{
+        width: 100%;
+    }
+}
